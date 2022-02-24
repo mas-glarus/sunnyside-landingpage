@@ -1,11 +1,49 @@
 section {
 	display: flex;
 	justify-content: center;
+	font-family: Barlow;
+	font-size: 18px;
 }
 
 .container {
 	height: 2300px;
 	width: 800px;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	height: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.navi-text {
+	margin: 0;
+	color: white;
+	padding-right: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Fraunces;
+	margin-top: 50px;
+	margin-bottom: 0;
+	letter-spacing: 0.4rem;
+}
+
+.arrow-down {
+	display: flex;
+	justify-content: center;
+	height: 70px;
+	margin-top: 50px;
 }
 
 header {
@@ -28,12 +66,27 @@ header {
 .stand-out {
 	height: 300px;
 	width: 400px;
-	background-color: wheat;
+	padding-left: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-right: 60px;
+	background-color: rgb(255, 246, 246); /*temporary*/
 }
 
 h2,
-h3 {
+h3,
+h4,
+h5 {
+	font-family: Fraunces;
 	margin: 0;
+}
+
+p {
+	font-size: 10px;
+	font-family: Barlow;
+	color: hsl(210, 4%, 67%);
+	line-height: 150%;
+	text-align: justify;
 }
 
 .yellow-egg,
@@ -59,16 +112,20 @@ h3 {
 .client-testimonials {
 	height: 100px;
 	width: 800px;
-	background-color: wheat;
+	background-color: rgb(255, 246, 246);
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	color: hsl(210, 4%, 67%);
+	font-size: 10px;
+	letter-spacing: 0.2rem;
+	padding-bottom: 20px;
 }
 
 .clients {
 	height: 300px;
 	width: 800px;
-	background-color: wheat;
+	background-color: rgb(255, 246, 246);
 	display: flex;
 }
 
@@ -97,7 +154,8 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	width: 30%;
+	width: 25%;
+	padding: 20px 0;
 }
 
 .comment {
@@ -106,10 +164,16 @@ h3 {
 
 .name {
 	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
 }
 
 .person-function {
 	text-align: center;
+	font-size: 8px;
+	font-family: Barlow;
+	font-weight: 600;
+	color: hsl(210, 4%, 67%);
 }
 
 .milk,
