@@ -1,0 +1,145 @@
+section {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	height: 2300px;
+	width: 800px;
+}
+
+header {
+	height: 450px;
+	width: 800px;
+	background-image: url("images/desktop/image-header.jpg");
+	background-size: 800px 450px;
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+	height: 300px;
+	width: 800px;
+	display: flex;
+}
+
+.transform,
+.stand-out {
+	height: 300px;
+	width: 400px;
+	background-color: wheat;
+}
+
+h2,
+h3 {
+	margin: 0;
+}
+
+.yellow-egg,
+.red-drink,
+.cherry,
+.orange {
+	height: 300px;
+	width: 400px;
+}
+
+.cherry {
+	background-image: url("images/desktop/image-graphic-design.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.orange {
+	background-image: url("images/desktop/image-photography.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.client-testimonials {
+	height: 100px;
+	width: 800px;
+	background-color: wheat;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.clients {
+	height: 300px;
+	width: 800px;
+	background-color: wheat;
+	display: flex;
+}
+
+.emily,
+.thomas,
+.jennie {
+	width: 200px;
+	height: 300px;
+}
+
+.emily {
+	margin-left: 80px;
+}
+
+.thomas {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.jennie {
+	margin-right: 80px;
+}
+
+.profile-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	width: 30%;
+}
+
+.comment {
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+}
+
+.person-function {
+	text-align: center;
+}
+
+.milk,
+.half-orange,
+.cornet,
+.sugar {
+	height: 300px;
+	width: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.milk {
+	background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+}
+
+.half-orange {
+	background-image: url("images/desktop/image-gallery-orange.jpg");
+}
+
+.cornet {
+	background-image: url("images/desktop/image-gallery-cone.jpg");
+}
+
+.sugar {
+	background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+}
+
+footer {
+	height: 250px;
+	width: 800px;
+	background-color: hsl(168, 34%, 41%);
+}
